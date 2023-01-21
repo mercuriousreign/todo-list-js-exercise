@@ -1,6 +1,5 @@
 
 function newTask(title, description) {
-
   const task = {
     title: title,
     description: description,
@@ -14,12 +13,9 @@ function newTask(title, description) {
       this.complete = true;
     }
 
-
   };
 
   return task;
-
-
 }
 
 // DRIVER CODE BELOW
